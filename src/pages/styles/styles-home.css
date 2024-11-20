@@ -38,11 +38,20 @@ main {
     padding: 2em;
 }
 
-h2 {
+.paragaph-1 h2 {
     color: #333;
     border-bottom: 2px solid #333;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
+    font-size: 30px;
+}
+
+.paragaph-1 p {
+    font-size: 24px;
+}
+
+.paragaph-1 {
+    max-width: 50%;
 }
 
 ul {
@@ -71,4 +80,16 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    padding: 1em;
+}
+
+img {
+    width: 500px;
 }
