@@ -46,6 +46,12 @@ h2 {
     margin-bottom: 1em;
 }
 
+section p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -60,9 +66,36 @@ ul li {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
+.carousel {
+    width: 85%;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
 .main-cards {
     display: flex;
-    gap: 10%
+    transition: transform 0.5s ease;
+    gap: 20px;
+}
+
+.card {
+    min-width: 50%; /* Defina uma largura mínima para os cards */
+    padding: 4%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FFFFFF; /* Cor de fundo dos cards */
+    border-radius: 8px; /* Bordas arredondadas para os cards */
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
 }
 
 footer {

@@ -60,37 +60,83 @@ ul li {
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-form {
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+section p {
+    color: #333;
+    font-size: 16px;
+}
+
+.whatsapp-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.whatsapp-link a {
+    color: #25D366; /* Cor do WhatsApp */
+    font-weight: bold;
+    text-decoration: none;
     display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o conteúdo do link */
+    margin: 0 auto; /* Centraliza o link */
+    max-width: 300px; /* Limita a largura do link */
+    padding: 10px; /* Adiciona padding para melhorar a aparência */
+    border: 1px solid #25D366; /* Adiciona uma borda ao redor do link */
+    border-radius: 5px; /* Arredonda as bordas */
+    transition: background-color 0.3s; /* Transição suave para o fundo */
+}
+
+.whatsapp-link a:hover {
+    background-color: #e8f5e9; /* Muda a cor de fundo ao passar o mouse */
+}
+
+.whatsapp-link a i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-size: 1.5em; /* Tamanho do ícone */
+}
+
+.contact-form {
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
     flex-direction: column;
-    max-width: 400px;
 }
 
-label {
-    margin: 0.5em 0 0.2em;
+.contact-form label {
+    margin-bottom: 5px;
 }
 
-input, textarea {
-    margin-bottom: 1em;
-    padding: 0.5em;
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-    box-sizing: border-box;
+    border-radius: 5px;
 }
 
-button {
-    padding: 0.5em;
-    border: none;
-    border-radius: 4px;
-    background-color: #333;
+.contact-form button {
+    padding: 10px;
+    background-color: #28a745; /* Cor do botão */
     color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 1em;
 }
 
-button:hover {
-    background-color: #555;
+.contact-form button:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
 }
 
 footer {
