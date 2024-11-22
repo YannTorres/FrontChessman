@@ -47,11 +47,49 @@ main {
 }
 
 .paragaph-1 p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .paragaph-1 {
     max-width: 50%;
+}
+
+.map {
+    margin: 3em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragaph-2 {
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.audio-player {
+    margin: 3em auto;
+    min-width: 400px;
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+    text-align: center; 
+} 
+.audio-player audio { 
+    width: 100%; 
+    margin-top: 10px;
+} 
+
+audio {
+    background-color: #fff;
+    color: #fff;
+}
+
+.audio-title { 
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
 }
 
 ul {

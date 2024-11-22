@@ -1,4 +1,3 @@
-/* styles-contato.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -85,33 +84,33 @@ section p {
 }
 
 .whatsapp-link a {
-    color: #25D366; /* Cor do WhatsApp */
+    color: #25D366;
     font-weight: bold;
     text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza o conteúdo do link */
-    margin: 0 auto; /* Centraliza o link */
-    max-width: 300px; /* Limita a largura do link */
-    padding: 10px; /* Adiciona padding para melhorar a aparência */
-    border: 1px solid #25D366; /* Adiciona uma borda ao redor do link */
-    border-radius: 5px; /* Arredonda as bordas */
-    transition: background-color 0.3s; /* Transição suave para o fundo */
+    justify-content: center; 
+    margin: 0 auto;
+    max-width: 300px; 
+    padding: 10px; 
+    border: 1px solid #25D366; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
 }
 
 .whatsapp-link a:hover {
-    background-color: #e8f5e9; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #e8f5e9;
 }
 
 .whatsapp-link a i {
-    margin-right: 8px; /* Espaço entre o ícone e o texto */
-    font-size: 1.5em; /* Tamanho do ícone */
+    margin-right: 8px; 
+    font-size: 1.5em; 
 }
 
 .contact-form {
     display: flex;
     width: 40%;
-    margin: 0 auto;
+    margin: 3em auto;
     flex-direction: column;
 }
 
@@ -128,7 +127,7 @@ section p {
 
 .contact-form button {
     padding: 10px;
-    background-color: #28a745; /* Cor do botão */
+    background-color: #28a745; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -136,7 +135,7 @@ section p {
 }
 
 .contact-form button:hover {
-    background-color: #218838; /* Cor do botão ao passar o mouse */
+    background-color: #218838; 
 }
 
 footer {
